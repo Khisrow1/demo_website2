@@ -1,0 +1,229 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin-left: 0;
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+}
+h2 {
+    padding-bottom: 10px;
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    line-height: 2;
+}
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    color: #EAF6F6;
+}
+/* Class Selectors */
+.top-container {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+.top-cloud {
+    position: absolute;
+    right: 380px;
+    top: 50px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 390px;
+    bottom: 450px;
+}
+.middle-container {
+    margin: 100px auto;
+}
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 10px;
+}
+.avatar {
+    border-radius: 100%;
+    width: 12%;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.cs-pic {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.at-pic {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.intro {
+    width: 30%;
+    margin: auto;
+}
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.copyright {
+    color: #EAF6F6;
+    font-size: .75rem;
+    padding: 25px 0 0;
+}
+
+.b-contact {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #11cdd4), color-stop(1, #11999e) );
+	background:-moz-linear-gradient( center top, #11cdd4 5%, #11999e 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#11cdd4', endColorstr='#11999e');
+	background-color:#11cdd4;
+	-webkit-border-top-left-radius:8px;
+	-moz-border-radius-topleft:8px;
+	border-top-left-radius:8px;
+	-webkit-border-top-right-radius:8px;
+	-moz-border-radius-topright:8px;
+	border-top-right-radius:8px;
+	-webkit-border-bottom-right-radius:8px;
+	-moz-border-radius-bottomright:8px;
+	border-bottom-right-radius:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-moz-border-radius-bottomleft:8px;
+	border-bottom-left-radius:8px;
+text-indent:0px;
+	border:1px solid #11cdd4;
+	display:inline-block;
+	color:#ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size:17px;
+	font-style:normal;
+height:37px;
+	line-height:37px;
+width:145px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #7cacde;
+}.b-contact:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #11999e), color-stop(1, #11cdd4) );
+	background:-moz-linear-gradient( center top, #11999e 5%, #11cdd4 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#11999e', endColorstr='#11cdd4');
+	background-color:#11999e;
+}.b-contact:active {
+	position:relative;
+	top:1px;
+}
+/* .pro {
+    text-decoration: underline;
+    display: inline;
+} */
+
+/* Scroll Bar Appearance */
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/* Navbar */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a, .dropdown-btn {
+    padding: 6px 12px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #66BFBF;
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  .dropdown-btn {
+      padding-left: 2.2rem;
+  }
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: rgb(38, 70, 70);
+  }
+  
+  /* Main content */
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  /* Add an active class to the active dropdown button */
+  .active {
+    color: rgb(38, 70, 70);
+  }
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    padding-left: 8px;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
